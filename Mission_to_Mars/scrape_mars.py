@@ -104,6 +104,8 @@ def scrape():
         
         # Finally, we navigate backwards
         browser.back()
+    
+    browser.quit()
 
     data = {
         'news_title': news_title, 
